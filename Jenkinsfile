@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("Pathak-at-GitHub/Docker_git_repo")
+        app = docker.build("pathakatdocker/docker_jenkins_git_pipeline_1")
     }
 
     stage('Test image') {
