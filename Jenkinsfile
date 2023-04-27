@@ -11,7 +11,9 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("pathakatdocker/docker_jenkins_git_pipeline_1")
+        app = docker.build("pathakatdocker
+/
+1st_docker_repostory")
     }
 
     stage('Test image') {
