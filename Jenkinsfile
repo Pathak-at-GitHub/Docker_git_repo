@@ -11,9 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("pathakatdocker
-/
-1st_docker_repostory")
+        app = docker.build("a0cb57d9ee7b")
     }
 
     stage('Test image') {
